@@ -1,5 +1,4 @@
-# HAGIS
-The tool implementation is **not** open-sourced.
+# HAGIS: Heatmap-Aided Solving of Guarded System of Polynomial Equalities for Exact Invariant Synthesis
 
 # HAGIS Installation.
 Install python, cvxpy, z3 etc using pip.

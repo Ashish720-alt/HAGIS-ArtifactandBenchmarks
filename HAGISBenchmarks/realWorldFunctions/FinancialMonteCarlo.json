@@ -1,0 +1,17 @@
+{
+  "Sample_Points": {
+    "Probs": [],
+    "Integers": ["priceVal", "rateVal", "costVal", "barVal"],
+    "Booleans": [],
+    "Reals": []
+  },
+  "wp": {
+    "guard": "[priceVal > barVal]",
+    "loopbody": "costVal=costVal-3*priceVal+rateVal+3;priceVal=priceVal-1;rateVal=rateVal+1",
+    "post": "costVal",
+    "pre": [
+      "costVal + [priceVal > barVal]*(priceVal*rateVal + 2*priceVal)",
+      "costVal"
+    ]
+  }
+}

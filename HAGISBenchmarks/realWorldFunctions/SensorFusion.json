@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": ["p"],
+        "Integers": ["timeStep", "varValue", "varThresh"],
+        "Booleans": [],
+        "Reals": []
+    },
+    "wp": {
+        "guard": "[varValue > varThresh]",
+        "loopbody": "varValue=varValue-1;timeStep=timeStep+1[p]timeStep=timeStep",
+        "post": "timeStep",
+        "pre": [
+            "timeStep + [varValue > varThresh]*(p/3)*(varValue - varThresh)",
+            "timeStep"
+        ]
+    }
+}

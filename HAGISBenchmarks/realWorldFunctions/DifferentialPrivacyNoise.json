@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": ["p_eps"],
+        "Integers": ["attempts", "noise"],
+        "Booleans": [],
+        "Reals": []
+    },
+    "wp": {
+        "guard": "[noise > 0]",
+        "loopbody": "noise=noise-1;attempts=attempts+1[p_eps]attempts=attempts",
+        "post": "attempts",
+        "pre": [
+            "attempts + [noise > 0]*(p_eps*noise)",
+            "attempts"
+        ]
+    }
+}

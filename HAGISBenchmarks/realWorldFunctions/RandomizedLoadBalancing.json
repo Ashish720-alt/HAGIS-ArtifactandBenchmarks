@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": ["pAccept"],
+        "Integers": ["delayVal", "attCtr", "probeCtr", "prodAP", "flagAcc"],
+        "Booleans": [],
+        "Reals": []
+    },
+    "wp": {
+        "guard": "[flagAcc == 0]",
+        "loopbody": "attCtr=attCtr+1;probeCtr=probeCtr+1;prodAP=prodAP+attCtr+probeCtr+1;delayVal=delayVal+2*attCtr+7*probeCtr;flagAcc=1[pAccept]flagAcc=0",
+        "post": "delayVal + prodAP",
+        "pre": [
+            "delayVal + prodAP",
+            "delayVal + prodAP"
+        ]
+    }
+}

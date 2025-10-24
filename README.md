@@ -1,5 +1,5 @@
 # HAGIS Installation.
-Only need to install cvxpy, z3 using pip.
+Install python, cvxpy, z3 etc using pip.
 
 
 # HAGIS Benchmark Suites

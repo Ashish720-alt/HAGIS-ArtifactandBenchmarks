@@ -1,0 +1,11 @@
+{
+    "Sample_Points": {
+        "Integers": ["n", "x", "y"]
+    },
+    "wp": {
+        "guard": "[n > 0]",
+        "loopbody": "{x=x+1[0.4]x=x+2}[0.2]{x=x-1[0.5]x=x-2};{y=y+1[0.5]y=y-2}[0.4]{y=y-1[0.4]y=y+2};{n=n+1[0.2]skip}[0.5]{n=n-1[0.2]skip};{x = x + y [0.5] skip}",
+        "post": "x*y + x + y",
+        "pre": [ "x*y + x + y + (n>0)* n" ]
+    }
+}

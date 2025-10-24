@@ -1,0 +1,22 @@
+{
+    "Sample_Points": {
+        "Probs": [
+            "p1",
+            "p2"
+        ],
+        "Booleans": [
+            "c1",
+            "c2"
+        ],
+        "Integers": [
+            "x",
+            "z"
+        ]
+    },
+    "wp": {
+        "guard": "[ c1 + c2 == 0]",
+        "loopbody": "{c1=1,x=x+z}[p1]skip;{c2=1,x=x+z}[p2]skip",
+        "pre": ["x", "x + [c1 + c2 == 0] * (p1 + p2)"],
+        "post": "x + x*z"
+    }
+}

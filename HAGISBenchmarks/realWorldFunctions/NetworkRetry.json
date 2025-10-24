@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": ["pRetry"],
+        "Integers": ["costNet", "retCtr", "backCtr", "prodRB", "flagFlip"],
+        "Booleans": [],
+        "Reals": []
+    },
+    "wp": {
+        "guard": "[flagFlip == 0]",
+        "loopbody": "retCtr=retCtr+1;backCtr=backCtr+1;prodRB=prodRB+retCtr+backCtr+1;costNet=costNet+3*retCtr+5*backCtr;flagFlip=1[pRetry]flagFlip=0",
+        "post": "costNet + prodRB",
+        "pre": [
+            "costNet + prodRB",
+            "costNet + prodRB"
+        ]
+    }
+}

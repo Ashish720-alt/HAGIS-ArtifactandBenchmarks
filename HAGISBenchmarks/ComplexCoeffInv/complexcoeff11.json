@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Integers": [
+            "n",
+            "x",
+            "y"
+        ]
+    },
+    "wp": {
+        "guard": "[n > 0]",
+        "loopbody": "x=x+n[0.6]x=x+y+513;n=n-1[0.4]n=n+1",
+        "post": "x",
+        "pre": [
+            "x" 
+           ]
+    }
+}

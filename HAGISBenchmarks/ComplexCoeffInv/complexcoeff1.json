@@ -1,0 +1,18 @@
+{
+    "Sample_Points": {
+        "Integers": [
+            "x",
+            "y",
+            "z"
+        ],
+        "Booleans": [
+            
+        ]
+    },
+    "wp": {
+        "guard": "[z != 0]",
+        "loopbody": "y=y+2;z=0[0.33333]x=x+y+50",
+        "post": "x",
+        "pre": [ "x"]
+    }
+}

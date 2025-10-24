@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": ["p"],
+        "Integers": ["cost", "retriesLeft", "repair_time"],
+        "Booleans": [],
+        "Reals": []
+    },
+    "wp": {
+        "guard": "[retriesLeft > 0]",
+        "loopbody": "cost=cost+repair_time;retriesLeft=retriesLeft-1[p]retriesLeft=retriesLeft",
+        "post": "cost",
+        "pre": [
+            "cost + [retriesLeft > 0]*p*repair_time*retriesLeft",
+            "cost"
+        ]
+    }
+}

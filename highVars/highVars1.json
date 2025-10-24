@@ -1,0 +1,18 @@
+{
+    "Sample_Points": {
+        "Integers": [
+            "x",
+            "y",
+            "t"
+        ]
+    },
+    "wp": {
+        "guard": "[(x > 0) & (y > x)]",
+        "loopbody": "x=x+1[0.015625]skip;t=t+7",
+        "post": "t",
+        "pre": [
+            "t",
+            "x * (y-x)"
+        ]
+    }
+}

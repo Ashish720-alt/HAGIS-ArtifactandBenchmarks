@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": [
+            "p"
+        ],
+        "Integers": [
+            "x",
+            "y"
+        ]
+    },
+    "wp": {
+        "guard": "[x == y]",
+        "loopbody": "x=1[p]x=0;y=1[p]y=0",
+        "post": "x+y",
+        "pre": ["[x != y] * x", "[x == y] * 0.5"]
+    }
+}

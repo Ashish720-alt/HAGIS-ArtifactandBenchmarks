@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": ["p_crash"],
+        "Integers": ["delay", "time", "accident"],
+        "Booleans": [],
+        "Reals": []
+    },
+    "wp": {
+        "guard": "[accident == 0]",
+        "loopbody": "time=time+1;delay=delay+time;accident=1[p_crash]accident=0",
+        "post": "delay",
+        "pre": [
+            "delay + [accident == 0]*p_crash*(time+1)",
+            "delay"
+        ]
+    }
+}

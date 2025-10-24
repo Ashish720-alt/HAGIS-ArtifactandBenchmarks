@@ -1,0 +1,21 @@
+{
+    "Sample_Points": {
+        "Probs": [
+            "p"
+        ],
+        "Integers": [
+            "x",
+            "y",
+            "z"
+        ],
+        "Booleans": [
+            
+        ]
+    },
+    "wp": {
+        "guard": "[z != 0]",
+        "loopbody": "y=y+1;z=0[p]x=x+y",
+        "post": "x*y",
+        "pre": [  "x + [z != 0]*(y*(1-p))", "x + [z != 0]*(y*(1-p)/p)", "x + [z != 0]*((1-p)**(-y))", "x + [z != 0]*((1-p)**(-x-y))", "x"]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": ["p"],
+        "Integers": ["rounds", "count"],
+        "Booleans": [],
+        "Reals": []
+    },
+    "wp": {
+        "guard": "[count > 1]",
+        "loopbody": "rounds=rounds+1;count=count-1[p]count=count",
+        "post": "rounds",
+        "pre": [
+            "rounds + [count > 1]*p*(count-1)",
+            "rounds"
+        ]
+    }
+}

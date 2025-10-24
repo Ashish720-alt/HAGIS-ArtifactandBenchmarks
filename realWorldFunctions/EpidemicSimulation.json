@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": ["pInfect"],
+        "Integers": ["costVal", "dayU", "dayV", "prodUV", "flagInf"],
+        "Booleans": [],
+        "Reals": []
+    },
+    "wp": {
+        "guard": "[flagInf == 1]",
+        "loopbody": "dayU=dayU+1;dayV=dayV+1;prodUV=prodUV+dayU+dayV+1;costVal=costVal+2*dayU+3*dayV;flagInf=0[pInfect]flagInf=1",
+        "post": "costVal + prodUV",
+        "pre": [
+            "costVal + prodUV",
+            "costVal + prodUV"
+        ]
+    }
+}

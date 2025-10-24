@@ -1,0 +1,17 @@
+{
+    "Sample_Points": {
+        "Probs": ["p_arrive"],
+        "Integers": ["serviceTime", "queue"],
+        "Booleans": [],
+        "Reals": []
+    },
+    "wp": {
+        "guard": "[queue > 0]",
+        "loopbody": "queue=queue-1[p_arrive]queue=queue+1;serviceTime=serviceTime+1",
+        "post": "serviceTime",
+        "pre": [
+            "serviceTime + [queue > 0]*p_arrive*(queue)",
+            "serviceTime"
+        ]
+    }
+}

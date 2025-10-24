@@ -1,3 +1,7 @@
+# HAGIS Installation.
+Only need to install cvxpy, z3 using pip.
+
+
 # HAGIS Benchmark Suites
 This repository contains all benchmark suites used in our paper:
 - bigconstants

@@ -4,7 +4,7 @@
 Install python, cvxpy, z3 etc using pip.
 
 # HAGIS: How to run?
-1. Put the benchmarks you want to run in program_list.txt (The list of all available benchmarks is given in program_list_all.txt, and the correpsonding benchmark files are in configuration_files). 1 benchmark per line (no extra spaces).
+1. Put the benchmarks you want to run in program_list.txt (The list of all available benchmarks is given in program_list_all.txt, and the correpsonding benchmark files are in configuration_files). 1 benchmark per line (no extra spaces, no blank lines).
 2. Run python3 run.py (the output prints to terminal)
 
 # HAGIS: Results

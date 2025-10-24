@@ -1,4 +1,4 @@
-# GSpacer Benchmark Suites
+# HAGIS Benchmark Suites
 This repository contains all benchmark suites used in our paper:
 - bigconstants
 - highprec

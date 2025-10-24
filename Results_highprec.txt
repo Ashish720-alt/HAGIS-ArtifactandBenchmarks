@@ -1,0 +1,108 @@
+     Benchmark name: Geo0_highprec; postE-exp: z
+For Geo0_highprec: we get z + [flip==0] * ((1.68965 - 1.68965*p1)/p1)
+Total time taken is: 0.47640538215637207
+
+
+
+     Benchmark name: Geo1_highprec; postE-exp: z
+For Geo1_highprec: we get z + [flip==0] * ((6.7345 - 6.7345*p1)/p1)
+Total time taken is: 0.3971891403198242
+
+
+
+     Benchmark name: Geo2_highprec; postE-exp: z
+For Geo2_highprec: we get z + [flip==0] * ((1.75615 - 1.75615*p1)/p1)
+Total time taken is: 0.39715051651000977
+
+
+
+     Benchmark name: Mart_highprec; postE-exp: rounds
+For Mart_highprec: we get rounds + [b>0] * (1.7565/p)
+Total time taken is: 0.37265849113464355
+
+
+
+     Benchmark name: Fair_highprec; postE-exp: count
+For Fair_highprec: we get count + [c1+c2==0] * ((-1.5915*p1 - 1.2165*p2)/(p1*p2 - p1 - p2))
+Total time taken is: 16.647034168243408
+
+
+
+     Benchmark name: BiasDir_highprec; postE-exp: x
+For BiasDir_highprec: we get x + [x==y] * (-0.7184*p - 0.5*x - 0.5*y + 0.96735)
+Total time taken is: 0.8089339733123779
+
+
+
+     Benchmark name: Prinsys_highprec; postE-exp: [x==1]*1
+For Prinsys_highprec: we get [x==1]*1 + [x==0] * (0)
+Total time taken is: 1.9240522384643555
+
+
+
+     Benchmark name: RevBin_highprec; postE-exp: z
+For RevBin_highprec: we get z + [x>0] * (1.2525*x/p)
+Total time taken is: 1.2870516777038574
+
+
+
+     Benchmark name: Detm_highprec; postE-exp: count
+For Detm_highprec: we get count + [x<=10] * (16.23215 - 1.47565*x)
+Total time taken is: 0.14207983016967773
+
+
+
+     Benchmark name: Bin0_highprec; postE-exp: x
+For Bin0_highprec: we get x + [n>0] * (0.235*n*p*y)
+Total time taken is: 2.1284987926483154
+
+
+
+     Benchmark name: Bin1_highprec; postE-exp: x
+For Bin1_highprec: we get x + [n<M] * (1.73333*M*p - 1.73333*n*p)
+Total time taken is: 1.1102705001831055
+
+
+
+     Benchmark name: Bin2_highprec; postE-exp: x
+For Bin2_highprec: we get x + [n>0] * (0.6*n^2*p + 0.6*n*p + n*y*(0.23541 - 0.23541*p))
+Total time taken is: 2.7755463123321533
+
+
+
+     Benchmark name: Sum0_highprec; postE-exp: x
+For Sum0_highprec: we get x + [n>0] * (1.1825*n^2*p + 1.1825*n*p)
+Total time taken is: 1.6854701042175293
+
+
+
+     Benchmark name: Gambler0_highprec; postE-exp: z
+For Gambler0_highprec: we get z + [(x>0)&(y>x)] * (-7.9865*x^2 + 7.9865*x*y)
+Total time taken is: 2.5946943759918213
+
+
+
+     Benchmark name: GeoAr0_highprec; postE-exp: x
+For GeoAr0_highprec: we get x + [z!=0] * (y*(1 - p)/p + (-1.5625*p^2 + 0.5625*p + 1)/p^2)
+Total time taken is: 1.2072746753692627
+
+
+
+     Benchmark name: DepRV_highprec; postE-exp: x*y+x+y
+For DepRV_highprec: we get x*y+x+y + [n>0] * (0.53974382*n^2 + 0.678475*n*x + 0.795525*n*y + 0.93425618*n)
+Total time taken is: 0.591994047164917
+
+
+
+     Benchmark name: LinExp_highprec; postE-exp: z
+For LinExp_highprec: we get z + [n>0] * (6.7265625*n)
+Total time taken is: 0.22228455543518066
+
+
+
+     Benchmark name: Duel_highprec; postE-exp: t
+For Duel_highprec: we get t + [c==1] * (c*(0.78125 - 0.78125*p2) - 0.78125*p2 + t*(p2 - 1) + 0.78125)
+Total time taken is: 11.717098474502563
+
+
+

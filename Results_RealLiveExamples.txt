@@ -1,0 +1,60 @@
+     Benchmark name: RandomizedLoadBalancing; postE-exp: delayVal+prodAP
+For RandomizedLoadBalancing: we get delayVal+prodAP + [flagAcc==0] * (3*attCtr/pAccept + 8*probeCtr/pAccept + (pAccept + 11)/pAccept^2)
+Total time taken is: 1.8221383094787598
+
+
+
+     Benchmark name: TrafficSimulation; postE-exp: delay
+For TrafficSimulation: we get delay + [accident==0] * (time/p_crash + p_crash^(-2))
+Total time taken is: 0.8473267555236816
+
+
+
+     Benchmark name: SensorFusion; postE-exp: timeStep
+For SensorFusion: we get timeStep + [varValue>varThresh] * (-p*varThresh + p*varValue)
+Total time taken is: 1.1221506595611572
+
+
+
+     Benchmark name: DifferentialPrivacyNoise; postE-exp: attempts
+For DifferentialPrivacyNoise: we get attempts + [noise>0] * (noise*p_eps)
+Total time taken is: 0.9935956001281738
+
+
+
+     Benchmark name: NetworkRetry; postE-exp: costNet+prodRB
+For NetworkRetry: we get costNet+prodRB + [flagFlip==0] * (6*backCtr/pRetry + 4*retCtr/pRetry + (pRetry + 10)/pRetry^2)
+Total time taken is: 1.793172836303711
+
+
+
+     Benchmark name: EpidemicSimulation; postE-exp: costVal+prodUV
+For EpidemicSimulation: we get costVal+prodUV + [flagInf==1] * (3*dayU/pInfect + 4*dayV/pInfect + flagInf*(0.5*pInfect + 3.5)/pInfect^2 + (0.5*pInfect + 3.5)/pInfect^2)
+Total time taken is: 2.0053021907806396
+
+
+
+     Benchmark name: LeaderElection; postE-exp: rounds
+For LeaderElection: we get rounds + [count>1] * (count/p - 1/p)
+Total time taken is: 1.6457068920135498
+
+
+
+     Benchmark name: QueueSimulation; postE-exp: serviceTime
+For QueueSimulation: we get serviceTime + [queue>0] * (queue*(0.5*p_arrive - 0.25)/(p_arrive^2 - p_arrive + 0.25))
+Total time taken is: 2.9941494464874268
+
+
+
+     Benchmark name: HardwareReliability; postE-exp: cost
+For HardwareReliability: we get cost + [retriesLeft>0] * (repair_time*retriesLeft/p)
+Total time taken is: 3.373079538345337
+
+
+
+     Benchmark name: FinancialMonteCarlo; postE-exp: costVal
+For FinancialMonteCarlo: we get costVal + [priceVal>barVal] * (2.0*barVal^2 - 1.0*barVal*priceVal - 1.0*barVal*rateVal - 1.0*barVal - 1.0*priceVal^2 + 1.0*priceVal*rateVal + 1.0*priceVal)
+Total time taken is: 0.5383665561676025
+
+
+

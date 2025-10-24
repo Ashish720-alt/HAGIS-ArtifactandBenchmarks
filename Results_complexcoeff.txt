@@ -1,0 +1,108 @@
+     Benchmark name: complexcoeff1; postE-exp: x
+For complexcoeff1: we get x + [z!=0] * (2.0*y + 112.0018)
+Total time taken is: 0.3017232418060303
+
+
+
+     Benchmark name: complexcoeff2; postE-exp: x
+For complexcoeff2: we get x + [z!=0] * (1.0*y + 1552.0)
+Total time taken is: 0.12853717803955078
+
+
+
+     Benchmark name: complexcoeff3; postE-exp: x
+For complexcoeff3: we get x + [z!=0] * (1.5*y + 2311.5)
+Total time taken is: 0.1263124942779541
+
+
+
+     Benchmark name: complexcoeff4; postE-exp: x
+For complexcoeff4: we get x + [z!=0] * (1.0*y + 1200.0)
+Total time taken is: 0.13316822052001953
+
+
+
+     Benchmark name: complexcoeff5; postE-exp: x
+For complexcoeff5: we get x + [z!=0] * (1.0*y + 949.0)
+Total time taken is: 0.11988949775695801
+
+
+
+     Benchmark name: complexcoeff6; postE-exp: x
+For complexcoeff6: we get x + [z!=0] * (3.0*y + 2172.0)
+Total time taken is: 0.12592005729675293
+
+
+
+     Benchmark name: complexcoeff7; postE-exp: x
+For complexcoeff7: we get x + [z!=0] * (1.0*y + 2270.0)
+Total time taken is: 0.1206355094909668
+
+
+
+     Benchmark name: complexcoeff8; postE-exp: x
+For complexcoeff8: we get x + [z!=0] * (9.0*y + 67626.0)
+Total time taken is: 0.12654805183410645
+
+
+
+     Benchmark name: complexcoeff9; postE-exp: x
+For complexcoeff9: we get x + [z!=0] * (1.0*y + 619.0)
+Total time taken is: 0.11936593055725098
+
+
+
+     Benchmark name: complexcoeff10; postE-exp: x
+For complexcoeff10: we get x + [n>0] * (1.0*n^2 + 3.0*n*y + 101.0*n)
+Total time taken is: 0.9819817543029785
+
+
+
+     Benchmark name: complexcoeff11; postE-exp: x
+For complexcoeff11: we get x + [n>0] * (-1.5*n^2 - 2.0*n*y - 1018.5*n)
+Total time taken is: 0.9987082481384277
+
+
+
+     Benchmark name: complexcoeff12; postE-exp: x
+For complexcoeff12: we get x + [n>0] * (-1.0*n^2 - 3.0*n*y - 2326.0*n)
+Total time taken is: 0.9452610015869141
+
+
+
+     Benchmark name: complexcoeff13; postE-exp: x
+For complexcoeff13: we get x + [n>0] * (1.5*n^2 + 2.0*n*y + 1693.5*n)
+Total time taken is: 0.967893123626709
+
+
+
+     Benchmark name: complexcoeff14; postE-exp: x
+For complexcoeff14: we get x + [n>0] * (0.1667*n^2 + 1.3333*n*y + 76.2778*n)
+Total time taken is: 1.0452489852905273
+
+
+
+     Benchmark name: complexcoeff15; postE-exp: x
+For complexcoeff15: we get x + [n>0] * (-0.5*n^2 - 4.0*n*y - 481.5*n)
+Total time taken is: 0.9912285804748535
+
+
+
+     Benchmark name: complexcoeff16; postE-exp: x
+For complexcoeff16: we get x + [n>0] * (-2.0*n^2 - 1.0*n*y - 233.0*n)
+Total time taken is: 0.9748570919036865
+
+
+
+     Benchmark name: complexcoeff17; postE-exp: x
+For complexcoeff17: we get x + [n>0] * (0.6667*n^2 + 0.3333*n*y + 171.7778*n)
+Total time taken is: 0.9992997646331787
+
+
+
+     Benchmark name: complexcoeff18; postE-exp: x
+For complexcoeff18: we get x + [n>0] * (0.1667*n^2 + 1.3333*n*y + 2730.9444*n)
+Total time taken is: 0.979870080947876
+
+
+

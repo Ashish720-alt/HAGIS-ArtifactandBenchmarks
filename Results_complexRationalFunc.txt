@@ -1,0 +1,108 @@
+     Benchmark name: poly1; postE-exp: y
+For poly1: we get y + [y<z] * (-y + z)
+Total time taken is: 0.8069286346435547
+
+
+
+     Benchmark name: poly2; postE-exp: x
+For poly2: we get x + [y<z] * (-p*y + p*z)
+Total time taken is: 0.7183980941772461
+
+
+
+     Benchmark name: poly3; postE-exp: x*y
+For poly3: we get x*y + [y<z] * (-p*y*z + p*z^2 - x*y + x*z)
+Total time taken is: 1.3352582454681396
+
+
+
+     Benchmark name: poly4; postE-exp: x*y*z
+For poly4: we get x*y*z + [z!=0] * (-x*y*z)
+Total time taken is: 3.539262056350708
+
+
+
+     Benchmark name: poly5; postE-exp: y*z
+For poly5: we get y*z + [z!=0] * (-y*z)
+Total time taken is: 1.1210978031158447
+
+
+
+     Benchmark name: poly6; postE-exp: x+y
+For poly6: we get x+y + [x==y] * (-x - y + 1)
+Total time taken is: 0.31327295303344727
+
+
+
+     Benchmark name: poly7; postE-exp: x*y*z+y*z
+For poly7: we get x*y*z+y*z + [z!=0] * (-x*y*z - y*z)
+Total time taken is: 3.6662373542785645
+
+
+
+     Benchmark name: poly8; postE-exp: x*z
+For poly8: we get x*z + [z!=0] * (-x*z)
+Total time taken is: 1.1558072566986084
+
+
+
+     Benchmark name: poly9; postE-exp: 2*x*y*z*t1+y*z+x*y
+For poly9: we get 2*x*y*z*t1+y*z+x*y + [z!=0] * (-2.0*t1*x*y*z + 1.0*t1*y + 4.0*t1 + 2.0*x + 1.0*y^2 - 1.0*y*z + 7.0*y + 16.0)
+Total time taken is: 3.964911460876465
+
+
+
+     Benchmark name: poly10; postE-exp: 2*x*y*z*t1*t2+y*z+x*y
+For poly10: we get 2*x*y*z*t1*t2+y*z+x*y + [z!=0] * (-2.0*t1*t2*x*y*z + 1.0*t1*y + 4.0*t1 + 1.0*t2*y + 4.0*t2 + 2.0*x + 1.0*y^2 - 1.0*y*z + 8.0*y + 22.0)
+Total time taken is: 24.345450162887573
+
+
+
+     Benchmark name: rat1; postE-exp: x
+For rat1: we get x + [z!=0] * (y*(1 - p)/p + (1 - p)/p^2)
+Total time taken is: 0.677819013595581
+
+
+
+     Benchmark name: rat2; postE-exp: x*y
+For rat2: we get x*y + [z!=0] * (x/p + y^2*(1 - p)/p + y*(3 - 3*p)/p^2 + (p^2 - 4*p + 3)/p^3)
+Total time taken is: 2.264244318008423
+
+
+
+     Benchmark name: rat3; postE-exp: x*y*z+y*z+x*y
+For rat3: we get x*y*z+y*z+x*y + [z!=0] * (-x*y*z - y*z + x/p + y^2*(1 - p)/p + y*(3 - 3*p)/p^2 + (p^2 - 4*p + 3)/p^3)
+Total time taken is: 4.621008396148682
+
+
+
+     Benchmark name: rat4; postE-exp: y*z+x*y
+For rat4: we get y*z+x*y + [z!=0] * (-y*z + x/p + y^2*(1 - p)/p + y*(3 - 3*p)/p^2 + (p^2 - 4*p + 3)/p^3)
+Total time taken is: 1.968580722808838
+
+
+
+     Benchmark name: rat5; postE-exp: y*z+x*y+z*x+x*y*z
+For rat5: we get y*z+x*y+z*x+x*y*z + [z!=0] * (-x*y*z - x*z - y*z + x/p + y^2*(1 - p)/p + y*(3 - 3*p)/p^2 + (p^2 - 4*p + 3)/p^3)
+Total time taken is: 5.234215974807739
+
+
+
+     Benchmark name: rat6; postE-exp: x
+For rat6: we get x + [c1+c2==0] * (z*(-p1 - p2)/(p1*p2 - p1 - p2))
+Total time taken is: 19.65433382987976
+
+
+
+     Benchmark name: rat7; postE-exp: x*z
+For rat7: we get x*z + [c1+c2==0] * (z^2*(-p1 - p2)/(p1*p2 - p1 - p2))
+Total time taken is: 57.230690717697144
+
+
+
+     Benchmark name: rat8; postE-exp: x+x*z
+For rat8: we get x+x*z + [c1+c2==0] * (z^2*(-p1 - p2)/(p1*p2 - p1 - p2) + z*(-p1 - p2)/(p1*p2 - p1 - p2))
+Total time taken is: 60.03280854225159
+
+
+

@@ -1,0 +1,108 @@
+     Benchmark name: Geo0_bigconst; postE-exp: z
+For Geo0_bigconst: we get z + [flip==0] * ((1000000.0 - 1000000.0*p1)/p1)
+Total time taken is: 0.4318962097167969
+
+
+
+     Benchmark name: Geo1_bigconst; postE-exp: z
+For Geo1_bigconst: we get z + [flip==0] * ((1000000.0 - 1000000.0*p1)/p1)
+Total time taken is: 0.30068039894104004
+
+
+
+     Benchmark name: Geo2_bigconst; postE-exp: z
+For Geo2_bigconst: we get z + [flip==0] * ((1000000.0 - 1000000.0*p1)/p1)
+Total time taken is: 0.29815030097961426
+
+
+
+     Benchmark name: Mart_bigconst; postE-exp: rounds
+For Mart_bigconst: we get rounds + [b>0] * (1000000.0/p)
+Total time taken is: 0.37789225578308105
+
+
+
+     Benchmark name: Fair_bigconst; postE-exp: count
+For Fair_bigconst: we get count + [c1+c2==0] * ((-1000*p1 - 10000*p2)/(p1*p2 - p1 - p2))
+Total time taken is: 9.574397802352905
+
+
+
+     Benchmark name: BiasDir_bigconst; postE-exp: x
+For BiasDir_bigconst: we get x + [x==y] * (-0.5*x - 0.5*y + 500000)
+Total time taken is: 0.36005663871765137
+
+
+
+     Benchmark name: Prinsys_bigconst; postE-exp: [x==1]*100
+For Prinsys_bigconst: we get [x==1]*100 + [x==0] * (100 - 100*p2)
+Total time taken is: 2.319124937057495
+
+
+
+     Benchmark name: RevBin_bigconst; postE-exp: z
+For RevBin_bigconst: we get z + [x>0] * (1000000.0*x/p)
+Total time taken is: 1.1675724983215332
+
+
+
+     Benchmark name: Detm_bigconst; postE-exp: count
+For Detm_bigconst: we get count + [x<=10] * (1100000.0 - 100000.0*x)
+Total time taken is: 0.12047839164733887
+
+
+
+     Benchmark name: Bin0_bigconst; postE-exp: x
+For Bin0_bigconst: we get x + [n>0] * (10000*n*p*y)
+Total time taken is: 1.4776170253753662
+
+
+
+     Benchmark name: Bin1_bigconst; postE-exp: x
+For Bin1_bigconst: we get x + [n<M] * (100000*M*p - 100000*n*p)
+Total time taken is: 0.766892671585083
+
+
+
+     Benchmark name: Bin2_bigconst; postE-exp: x
+For Bin2_bigconst: we get x + [n>0] * (0.5*n^2*p + n*y*(1 - p) + n*(2500 - 999.5*p))
+Total time taken is: 1.8952836990356445
+
+
+
+     Benchmark name: Sum0_bigconst; postE-exp: x
+For Sum0_bigconst: we get x + [n>0] * (0.5*n^2*p + 1000.5*n*p)
+Total time taken is: 1.2307355403900146
+
+
+
+     Benchmark name: Gambler0_bigconst; postE-exp: z
+For Gambler0_bigconst: we get z + [(x>0)&(y>x)] * (-10000.0*x^2 + 10000.0*x*y)
+Total time taken is: 1.8638880252838135
+
+
+
+     Benchmark name: GeoAr0_bigconst; postE-exp: x
+For GeoAr0_bigconst: we get x + [z!=0] * (y*(1 - p)/p + (-100*p^2 + 99*p + 1)/p^2)
+Total time taken is: 5.33849310874939
+
+
+
+     Benchmark name: DepRV_bigconst; postE-exp: x*y+x+y
+For DepRV_bigconst: we get x*y+x+y + [n>0] * (3750000.0*n^2 + 2500.0*n*x + 1500.0*n*y - 3746000.0*n - 0.0016)
+Total time taken is: 0.44796323776245117
+
+
+
+     Benchmark name: LinExp_bigconst; postE-exp: z
+For LinExp_bigconst: we get z + [n>0] * (26250.0*n)
+Total time taken is: 0.16633033752441406
+
+
+
+     Benchmark name: Duel_bigconst; postE-exp: t
+For Duel_bigconst: we get t + [c==1] * (c*(5000 - 5000*p2) - 5000*p2 + t*(p2 - 1) + 5000)
+Total time taken is: 9.506612300872803
+
+
+

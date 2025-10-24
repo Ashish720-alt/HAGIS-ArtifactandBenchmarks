@@ -1,0 +1,57 @@
+     Benchmark name: manyPaths1; postE-exp: x*y+x+y
+For manyPaths1: we get x*y+x+y + [n>0] * (0.08*n^2 - 0.8*n*x - 0.82*n - 0.125*y^2)
+Total time taken is: 0.8599364757537842
+
+
+
+     Benchmark name: manyPaths2; postE-exp: x*y+x+y
+For manyPaths2: we get x*y+x+y + [n>0] * (0.0533*n^4 - 0.8*n^2*x - 0.2*n^2*y - 0.7333*n^2)
+Total time taken is: 5.399316787719727
+
+
+
+     Benchmark name: manyPaths3; postE-exp: x*y+x+y
+For manyPaths3: we get x*y+x+y + [n>0] * (0.04*n^4 + 0.2*n^2*x + 0.6*n^2*y + 0.88*n^2)
+Total time taken is: 8.580098628997803
+
+
+
+     Benchmark name: manyPaths4; postE-exp: x*y+x+y
+For manyPaths4: we get x*y+x+y + [n>0] * (0.0133*n^4 + 0.2*n^2*x + 0.2*n^2*y + 0.4267*n^2)
+Total time taken is: 9.072455406188965
+
+
+
+     Benchmark name: manyPaths5; postE-exp: x*y+x+y
+For manyPaths5: we get x*y+x+y + [n>0] * (-0.0587*n^4 - 0.88*n^2*x + 0.2*n^2*y - 0.7973*n^2)
+Total time taken is: 10.339511632919312
+
+
+
+     Benchmark name: manyPaths6; postE-exp: x*y+x+y
+For manyPaths6: we get x*y+x+y + [n>0] * (-1.1*n^2 - 2.2*n*x + 0.5*n*y - 0.49*n)
+Total time taken is: 2.567824125289917
+
+
+
+     Benchmark name: manyPaths7; postE-exp: x*y+x+y
+For manyPaths7: we get x*y+x+y + [n>0] * (-0.44*n^2 - 2.2*n*x + 0.2*n*y - 1.516*n)
+Total time taken is: 2.793900966644287
+
+
+
+     Benchmark name: manyPaths8; postE-exp: x*y+x+y
+For manyPaths8: we get x*y+x+y + [n>0] * (-1.54*n^2 - 0.7*n*x + 2.2*n*y + 3.194*n)
+Total time taken is: 3.3348443508148193
+
+
+
+     Benchmark name: manyPaths9; postE-exp: x*y+x+y
+For manyPaths9: we get x*y+x+y + [n>0] * (-2.0533*n^4 - 1.4*n^2*x + 4.4*n^2*y + 3.8213*n^2)
+Total time taken is: 19.333187341690063
+
+
+
+     Benchmark name: manyPaths10; postE-exp: x*y+x+y
+For manyPaths10: we get x*y+x+y + [n>0] * (-2.0533*n^4 - 1.4*n^2*x + 4.4*n^2*y + 3.8213*n^2)
+Total time taken is: 19.748243808746338

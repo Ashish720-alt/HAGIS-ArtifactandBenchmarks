@@ -1,0 +1,108 @@
+     Benchmark name: Geo0; postE-exp: z
+For Geo0: we get z + [flip==0] * ((1 - p1)/p1)
+Total time taken is: 0.6615815162658691
+
+
+
+     Benchmark name: Geo1; postE-exp: z
+For Geo1: we get z + [flip==0] * ((1 - p1)/p1)
+Total time taken is: 0.471569299697876
+
+
+
+     Benchmark name: Geo2; postE-exp: z
+For Geo2: we get z + [flip==0] * ((1 - p1)/p1)
+Total time taken is: 0.46242856979370117
+
+
+
+     Benchmark name: Mart; postE-exp: rounds
+For Mart: we get rounds + [b>0] * (1/p)
+Total time taken is: 0.5539839267730713
+
+
+
+     Benchmark name: Fair; postE-exp: count
+For Fair: we get count + [c1+c2==0] * ((-p1 - p2)/(p1*p2 - p1 - p2))
+Total time taken is: 13.38455319404602
+
+
+
+     Benchmark name: BiasDir; postE-exp: x
+For BiasDir: we get x + [x==y] * (-0.5*x - 0.5*y + 0.5)
+Total time taken is: 0.4846463203430176
+
+
+
+     Benchmark name: Prinsys; postE-exp: [x==1]*1
+For Prinsys: we get [x==1]*1 + [x==0] * (1 - p2)
+Total time taken is: 2.729344367980957
+
+
+
+     Benchmark name: RevBin; postE-exp: z
+For RevBin: we get z + [x>0] * (x/p)
+Total time taken is: 1.2529211044311523
+
+
+
+     Benchmark name: Detm; postE-exp: count
+For Detm: we get count + [x<=10] * (11.0 - 1.0*x)
+Total time taken is: 0.1345829963684082
+
+
+
+     Benchmark name: Bin0; postE-exp: x
+For Bin0: we get x + [n>0] * (n*p*y)
+Total time taken is: 2.203240156173706
+
+
+
+     Benchmark name: Bin1; postE-exp: x
+For Bin1: we get x + [n<M] * (M*p - n*p)
+Total time taken is: 1.135495662689209
+
+
+
+     Benchmark name: Bin2; postE-exp: x
+For Bin2: we get x + [n>0] * (0.5*n^2*p + 0.5*n*p + n*y*(1 - p))
+Total time taken is: 2.6088290214538574
+
+
+
+     Benchmark name: Sum0; postE-exp: x
+For Sum0: we get x + [n>0] * (0.5*n^2*p + 0.5*n*p)
+Total time taken is: 1.6954185962677002
+
+
+
+     Benchmark name: Gambler0; postE-exp: z
+For Gambler0: we get z + [(x>0)&(y>x)] * (-1.0*x^2 + 1.0*x*y)
+Total time taken is: 2.863456964492798
+
+
+
+     Benchmark name: GeoAr0; postE-exp: x
+For GeoAr0: we get x + [z!=0] * (y*(1 - p)/p + (1 - p)/p^2)
+Total time taken is: 1.1907355785369873
+
+
+
+     Benchmark name: DepRV; postE-exp: x*y+x+y
+For DepRV: we get x*y+x+y + [n>0] * (0.25*n^2 + 0.5*n*x + 0.5*n*y + 0.75*n)
+Total time taken is: 0.6790859699249268
+
+
+
+     Benchmark name: LinExp; postE-exp: z
+For LinExp: we get z + [n>0] * (2.625*n)
+Total time taken is: 0.292095422744751
+
+
+
+     Benchmark name: Duel; postE-exp: t
+For Duel: we get t + [c==1] * (c*(0.5*p1*p2 - 0.5*p1)/(p1*p2 - p1 - p2) + t*(-2*p1*p2 + p1 + p2)/(p1*p2 - p1 - p2) + (0.5*p1*p2 - 0.5*p1)/(p1*p2 - p1 - p2))
+Total time taken is: 44.846452713012695
+
+
+
